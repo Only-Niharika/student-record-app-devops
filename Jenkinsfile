@@ -11,28 +11,19 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Only-Niharika/student-record-app-devops'
+                git branch: 'main', url: 'https://github.com/Only-Niharika/student-record-app-devops.git'
             }
         }
 
-        stage('Build Docker Image') {
-           steps {
-                 sh 'docker build -t student-record-app .'
-            }
-        }
-
-        stage('Stop Old Container') {
+        stage('Deploy Container') {
             steps {
                 sh 'docker rm -f student_app || true'
-            }
-        }
 
-        stage('Deploy New Container') {
-            steps {
                 sh '''
                 docker run -d \
                   --name student_app \
                   -p 8080:80 \
+                  -v "$WORKSPACE":/var/www/html \
                   -e DB_HOST="$DB_HOST" \
                   -e DB_USER="$DB_USER" \
                   -e DB_PASSWORD="$DB_PASSWORD" \
