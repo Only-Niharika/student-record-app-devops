@@ -110,25 +110,25 @@ http://<EC2-PUBLIC-IP>:8080
 
 ## Docker Container Running
 
-![Docker Container](docker_container_running.png)
+![Docker Container](screenshots/docker_container_running.png)
 
 ---
 
 ## AWS EC2 Instance
 
-![EC2 Instance](ec2.png)
+![EC2 Instance](screenshots/ec2.png)
 
 ---
 
 ## Amazon RDS Instance
 
-![RDS](rds.png)
+![RDS](screenshots/rds.png)
 
 ---
 
 ## Database Records Stored Successfully
 
-![Database](mysql_database.png)
+![Database](screenshots/mysql_database.png)
 
 ---
 
