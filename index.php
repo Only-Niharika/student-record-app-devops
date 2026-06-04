@@ -18,10 +18,8 @@ function submitForm(rollno) {
 <body>
 <div class="container">
     <div class="header">
-        <h1>Student Record App</h1>
-        <p>Manage student details with a clean and modern interface</p>
-	<p>Made By - Niharika Karkra </p>
-	
+        <h1>Student Records</h1>
+        <p>Manage student details with a clean and modern interface</p
    </div>
 
     <div class="card">
