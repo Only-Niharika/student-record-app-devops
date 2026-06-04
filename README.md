@@ -104,7 +104,7 @@ http://<EC2-PUBLIC-IP>:8080
 
 ## Application Running Successfully
 
-![Application](application.png)
+![Application](screenshots/application.png)
 
 ---
 
