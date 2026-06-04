@@ -16,8 +16,8 @@ pipeline {
         }
 
         stage('Build Docker Image') {
-            steps {
-                sh 'docker build -t student-record-app .'
+           steps {
+                 sh 'docker build -t student-record-app .'
             }
         }
 
