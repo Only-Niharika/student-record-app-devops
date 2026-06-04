@@ -20,7 +20,8 @@ function submitForm(rollno) {
     <div class="header">
         <h1>Student Records</h1>
         <p>Manage student details with a clean and modern interface</p>
-    </div>
+	<p>Made By - Niharika Karkra </p>
+   </div>
 
     <div class="card">
         <h2 class="card-title">Add New Student</h2>
