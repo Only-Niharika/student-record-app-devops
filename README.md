@@ -183,17 +183,6 @@ Through this project I learned:
 
 ---
 
-## Future Improvements
-
-- Jenkins CI/CD Integration
-- Nginx Reverse Proxy
-- HTTPS using SSL Certificates
-- Docker Compose
-- Kubernetes Deployment
-- Monitoring using CloudWatch
-
----
-
 ## Author
 
 Niharika Karkra
